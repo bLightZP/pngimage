@@ -18,14 +18,14 @@ Unfotunately it still had a few bugs, so I decided to keep this repository up to
                            png files. The source pointer calculation
                            was assuming 8bit at all times, resulting
                            in invalid memory access.
-                           <Yaron Gur>
+                           - Yaron Gur
 
   Version 1.565
   2023-11-07   BUG 1     - There was a possible access violation
                            when applying the alpha mask because an extra
                            byte was read that possible fell beyond the
                            end of the row of pixels
-                           <Stijn Sanders>
+                           - Stijn Sanders
 
 
 # Original repository
